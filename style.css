@@ -596,7 +596,11 @@ hr.break{
     }
 }
 /*-------footer------*/
-
+.footer{
+    background-color: #3C50E0;
+    margin-top: 2.875rem;
+    width: 100% !important;
+}
 
 
 
