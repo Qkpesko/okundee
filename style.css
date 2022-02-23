@@ -108,6 +108,7 @@ li.last{
         font-size: 0.9rem;
         padding-right: 0;
         margin-top: 0;
+        margin-left: 0px;
     }
     .final_nav button{
         background: white;
@@ -308,14 +309,24 @@ hr.break{
         display: flex;
     }
     img.firstimage{
-        margin: 0;
-        padding-left: 5.172rem;
+        margin: 0px;
+        display: block;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-60%);
+        margin-left: 0px;
     }
     .hiw_row img{
         margin-left: 1.5rem;
     }
     .secondimage{
-        padding-left: 4.872rem;       
+        margin: 0px;
+        display: block;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-60%);     
     }
     .first_col h2{
         margin: 0;
@@ -483,7 +494,7 @@ hr.break{
     }
     .fourthpage button{
         margin: 0 auto;
-        margin-left: 13rem;
+        display: block;
         margin-top: 2rem;
     }
     .fourthpage button h4{
