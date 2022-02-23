@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width minimum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tripay</title>
+</head>
+<header>
+    <nav>
+        <div class="logo">
+            <h1>Tripay</h1>
+        </div>
+        <div class="middle_menu" id=navLinks>
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li>Business</li>
+                <li>Pricing</li>
+                <li>Features</li>
+                <li class="last">About</li>
+            </ul>
+
+            <div class="final_nav">
+                <p>Log in</p>
+                <button>Sign Up</button>
+            </div>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()">
+        </i>
+    </nav>
+    <!-----Text Area------>
+    <div class="text_area">
+        <div class="left">
+            <h1>Banking Should<br>
+                Be Easy.</h1>
+            <p>Financial transactions without internet using<br> a mobile device such as a smartphone or<br> tablet with
+                bluetooth. </p>
+            <button>Get Started</button>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+</header>
+<!---------second page--------->
+<main class="page1">
+    <h1>How it Works</h1>
+    <p>Mobile banking differs from mobile payments,<br>
+        which involves the use of a mobile device</p>
+    <div class="hiw_row">
+        <div class="first_col">
+            <img class='firstimage'src="images/Group 720.png"><br>
+            <img class='secondimage'src="images/Group 727.png">
+            <h2>Information</h2>
+            <p>Enter your information<bR>
+                ensure your details<br>
+                safe and more secure</p>
+        </div>
+        <hr class='pagebreak'>
+        <div class="first_col">
+            <img class='firstimage' src="images/Group 720.png"><br>
+            <img  class='secondimage'src="images/Group 727.png">
+            <h2>Data Secure</h2>
+            <p>Sending money faster &<br>
+                easier with end to end<br>
+                encryption.</p>
+        </div>
+        <hr class='pagebreak'>
+        <div class="first_col">
+            <img class='firstimage last' src="images/Group 720.png"><br>
+            <img  class='secondimage last'src="images/Group 727.png">
+            <h2>Add Cards</h2>
+            <p class="pelumi">Add multiple cards and track <br>
+                your daily expense with quality <br>
+                interface</p>
+        </div>
+    </div>
+</main>
+<hr class="break">
+<!-------third page-------->
+<main class="thirdpage">
+    <div class="img">
+        <img src="images/ORWHAT - iPhone (1).png">
+    </div>
+    <div>
+        <h1>Download<br>mobile App</h1>
+        <p>Download Tripay mobile banking<br>app for IOS and android.
+            It helps you<br> banking quickly and more smartly.</p>
+        <button class="store">
+            <img src="images/Group 44.png">
+            <h4>App Store</h4>
+        </button><br>
+        <button class="store">
+            <img src="images/Group 47.png">
+            <h4>Play Store</h4>
+        </button>
+    </div>
+</main>
+<!-------fourth page-------->
+<main class="fourthpage">
+    <div class="img">
+        <img src="images/ORWHAT - iPhone (2).png">
+    </div>
+    <div class="joloko">
+        <h1>Connecting all<br>your banking<br>needs</h1>
+        <p>Financial transactions remotely<br>using a mobile device such as a<br> smartphone or tablet</p>
+        <button class="store">
+            <h4>Get Started</h4>
+        </button>
+    </div>
+</main>
+<!------footer------->
+<footer>
+    <div class="mini_box">
+        <h1>Subscribe Newsletter</h1>
+        <p>Financial transactions without interet using a mobile device such as<br> a smartphone or tablet with
+            bluetooth.
+        </p>
+        <div class="smallinput">
+            <input type="email" id="email" placeholder="Enter your email.">
+            <label for="email">Subscribe</label>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="content">
+            <div class="footer_row">
+                <div class="logo">
+                    <h1>Tripay</h1>
+                </div>
+                <p>Financial transactions without<br> interet using a mobile device<br> such as a smartphone or<br>
+                    tablet with
+                    bluetooth. </p>
+                <div class="soshomedium">
+                    <img src="images/Group 1145.png">
+                    <img src="images/Group 1146.png">
+                    <img src="images/Layer 1.png">
+                </div>
+            </div>
+            <div class="footer_row1">
+                <h4>Tripay</h4>
+                <ul>
+                    <li>About</li>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                    <li>How it Works</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer_row1">
+                <h4>Support</h4>
+                <ul>
+                    <li>Support Center</li>
+                    <li>24h Service</li>
+                    <li>Quick Chat</li>
+                </ul>
+            </div>
+            <div class="footer_row1">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Whatsapp</li>
+                    <li>Support 24</li>
+                </ul>
+            </div>
+        </div>
+        <p class="bella">Copyright © 2021 Tripay</p>
+    </div>
+</footer>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+<body>
+
+</body>
+
+</html>
