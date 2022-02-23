@@ -21,7 +21,6 @@ nav{
     align-items: center;margin-bottom: 2.5rem;
 }
 div .logo{
-    max-width: 7.26%;
     color: #3C50E0;
 }
 .logo h1{
@@ -580,7 +579,7 @@ hr.break{
         margin: 0 auto;
     }
     .smallinput input{
-    width: 95.55%;
+    width: 93%;
     border: 0px;
     padding-top: 0.625rem;
     padding-left: 1.3rem;
@@ -594,7 +593,7 @@ hr.break{
         padding-left: 1rem;
     }
     .smallinput label{
-        width: 96.5%;
+        width: 95%;
         margin: 0;
         padding-top: 0.85rem;
         padding-bottom: 0.563rem;
@@ -610,6 +609,94 @@ hr.break{
     background-color: #3C50E0;
     margin-top: 2.875rem;
     width: 100% !important;
+    
+}
+.content{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 6.25rem;
+
+}
+.content h1{
+    color: white;
+    font-size: 1.75rem;
+}
+.content p{
+    font-size: 0.875rem;
+    color: #E8E8E8;
+    line-height: 2rem;
+}
+.content img{
+    width: 1.779rem;
+}
+
+.content ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.content h4{
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 600;
+}
+
+.content ul li{
+    font-size: 0.875rem;
+    color: #E8E8E8;
+    padding-bottom: 1rem;
+}
+
+.bella{
+    padding-left: 12.5rem;
+    color: #E8E8E8;
+    font-size: 0.813rem;
+    padding-bottom: 2.875rem;
+}
+@media screen and (max-width:600px) {
+    .content{
+        flex-direction: column;
+    }
+    .content h1{
+        display: block;
+        font-size: 1.25rem;
+        text-align:center;
+    }
+    .content p{
+        font-size: 0.8rem;
+        color: #E8E8E8;
+        line-height: 1rem;
+        display: block;
+        text-align: center;
+    }
+    .content ul li{
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+    }
+    .content h4{
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .bella{
+        padding: 0;
+        display: block;
+        text-align: center;
+        padding-bottom: 2.875rem;
+    }
+    div.soshomedium{
+        align-content: center;
+        align-items: center;
+        display: flex;
+        width: 30%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+
+
+
+    
 }
 
 
